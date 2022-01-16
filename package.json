@@ -1,8 +1,14 @@
 {
   "name": "mouse-trap",
   "displayName": "mouse-trap",
-  "description": "Discourages frequent mouse usage by popping up reminders",
-  "version": "0.0.1",
+  "description": "Discourages mouse usage by popping up reminders",
+  "version": "0.0.3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hootio/mouse-trap"
+  },
+  "publisher": "hooti",
   "engines": {
     "vscode": "^1.52.0"
   },
