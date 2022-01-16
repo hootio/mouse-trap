@@ -34,10 +34,3 @@ function mouseTrackerCallback(event: vscode.TextEditorSelectionChangeEvent) {
 }
 
 export { activate, deactivate };
-
-/**
- * TODOs:
- * - add more sassssss
- * - add cmd + K, cmd + S to pop up message
- * - have "cmd" in pop-up message be OS/customization specific
- */
