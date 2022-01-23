@@ -1,9 +1,9 @@
 name: Build Latest
 on:
   push:
-    branches: [main]
+    branches: ['*']
   pull_request:
-    branches: [main]
+    branches: ['*']
   workflow_dispatch:
 jobs:
   build:
@@ -20,5 +20,5 @@ jobs:
         run: yarn
       # - name: Test Extension
       #   run: yarn test
-      - name: Build Extension
-        run: yarn vscode:prepublish
+      - name: Package Extension
+        run: yarn vsce package
